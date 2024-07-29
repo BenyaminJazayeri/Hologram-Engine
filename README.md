@@ -44,6 +44,14 @@ It's showcased in the video below.
 At first, the code tried to post-transform a rendered image using 2D transformations, replicating Photoshop templates that were available to recreate this illusion at the time.
 Upon further inspection, I noticed that it's much more streamlined if you render the image in a different way, specifically, placing the camera viewport at your table in the 3D scene, instead of at the eye of the viewer and rerendering upon viewer's change of position.
 
+### Second Attempt - With The Help of Blender
+
+A lot of the code for this project is basic 3D engine polygon rendering, as this is something already perfected, I turned to blender 3D engine to use the code there with the added innovation of anamorphic illusions. It could be done manually but automation was unsuccessful at the time. Here are the results.
+
+![photo_2024-07-29_16-55-00](https://github.com/user-attachments/assets/e97023bd-58d2-4287-9d2b-6084ba73709d)
+
+![photo_2024-07-29_16-55-01](https://github.com/user-attachments/assets/770d9992-e573-48d2-b460-48f5ae06b9f6)
+
 ### running the code
 
 The main files are "ukno - tabletop.py" and "ukno - straight.py". The first file is used when you place your screen flat on the table and the second when you place it noramlly.
